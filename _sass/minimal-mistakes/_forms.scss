@@ -39,6 +39,12 @@ form {
   }
 }
 
+.no-padding {
+  padding-top: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
 label,
 input,
 button,
@@ -85,6 +91,17 @@ select {
   border: $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
+}
+
+.input-half {
+
+  @include breakpoint($x-small) {
+    width: 100%;
+  }
+
+  @include breakpoint($small) {
+    width: calc(50% - 0.75rem);
+  }
 }
 
 .input-mini {
