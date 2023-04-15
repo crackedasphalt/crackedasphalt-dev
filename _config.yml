@@ -334,3 +334,9 @@ signup-form:
   confirmed_message: You're awesome.
 
 collections:
+#  collection-example-1: # Change this value to match the name of collection
+#    output: true
+#    permalink: /:collection/:path/
+#  collection-example-2: # Change this value to match the name of collection
+#    output: true
+#    permalink: /:collection/:path/
