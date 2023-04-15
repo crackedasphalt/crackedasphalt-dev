@@ -51,20 +51,20 @@
 <figure class="{{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
     {% if img.url %}
-      <a href="{{ img.url | relative_url }}"
+    {% if forloop.index > 1 %}-->{% endif %}<a href="{{ img.url | relative_url }}"
         {% if img.title %}title="{{ img.title }}"{% endif %}>
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
-      </a>
+      </a>{% if forloop.last %}{% else %}<!--{% endif %}
     {% elsif is_path_gallery %}
-      <a href="{{ img.path | relative_url }}"
+    {% if forloop.index > 1 %}-->{% endif %}<a href="{{ img.path | relative_url }}"
       {% if img.basename %}title="{{ img.basename }}"{% endif %}>
         <img src="{{ img.path | relative_url }}"
             alt="{% if img.basename %}{{ img.basename }}{% endif %}">
-        </a>
+        </a>{% if forloop.last %}{% else %}<!--{% endif %}
     {% else %}
-      <img src="{{ img.image_path | relative_url }}"
-           alt="{% if img.alt %}{{ img.alt }}{% endif %}">
+      {% if forloop.index > 1 %}-->{% endif %}<img src="{{ img.image_path | relative_url }}"
+           alt="{% if img.alt %}{{ img.alt }}{% endif %}">{% if forloop.last %}{% else %}<!--{% endif %}
     {% endif %}
   {% endfor %}
   {% if include.caption %}
