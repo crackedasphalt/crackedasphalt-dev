@@ -210,7 +210,7 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
+page_excerpts: true # Jekyll 4.1.1 or higher required
 
 # Markdown Processing
 kramdown:
