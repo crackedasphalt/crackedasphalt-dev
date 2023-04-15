@@ -303,3 +303,8 @@ $RECYCLE.BIN/
 .ionide
 
 # Created by https://www.toptal.com/developers/gitignore/
+
+# Manual exclusions
+_pages/styleguide.md
+_styleguide/*
+assets/images/styleguide/*
