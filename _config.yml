@@ -306,6 +306,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
+      excerpt:
 
 # Form settings for Email signup form
 
