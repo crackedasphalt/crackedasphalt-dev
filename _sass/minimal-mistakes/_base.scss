@@ -214,6 +214,9 @@ figure {
     display: inline-block;
     vertical-align:top;
     width: 100%;
+    &:focus {
+      outline: 0;
+    }
   }
 
   > &.uno {
