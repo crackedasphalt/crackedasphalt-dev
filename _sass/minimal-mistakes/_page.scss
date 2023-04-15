@@ -68,6 +68,39 @@ body {
   }
 }
 
+.page-no-sidebar {
+  @include breakpoint($large) {
+    float: left;
+    width: 100%;
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: 100%;
+    padding-right: $right-sidebar-width;
+  }
+
+  .page__inner-wrap {
+    float: left;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+
+    .page__content,
+    .page__meta,
+    .page__share {
+      position: relative;
+      float: left;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+      clear: both;
+    }
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
@@ -556,7 +589,7 @@ body {
    ========================================================================== */
 
 .wide {
-  .page {
+  .page, .page-no-sidebar {
     @include breakpoint($large) {
       padding-right: 0;
     }

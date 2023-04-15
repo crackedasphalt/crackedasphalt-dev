@@ -18,6 +18,22 @@
   }
 }
 
+.archive-no-sidebar {
+  margin-top: 1em;
+  margin-bottom: 2em;
+
+  @include breakpoint($large) {
+    float: right;
+    width: 100%;
+    padding-right: $right-sidebar-width-narrow;
+  }
+
+  @include breakpoint($x-large) {
+    width: 100%;
+    padding-right: $right-sidebar-width;
+  }
+}
+
 .archive__item {
   position: relative;
 
@@ -135,7 +151,7 @@
    Grid view
    ========================================================================== */
 
-.archive {
+.archive, .archive-no-sidebar {
   .grid__wrapper {
     /* extend grid elements to the right */
 
@@ -422,7 +438,7 @@
 
 /* Place inside an archive layout */
 
-.archive {
+.archive, .archive-no-sidebar {
   .feature__wrapper {
     .archive__item-title {
       margin-top: 0.25em;
@@ -443,7 +459,7 @@
    ========================================================================== */
 
   .wide {
-  .archive {
+  .archive, .archive-no-sidebar {
     @include breakpoint($large) {
       padding-right: 0;
     }

@@ -15,9 +15,14 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  {% if page.classes contains "no-sidebar" or page.classes contains "wide" and page.author_profile != true %}
+  {% else %}
   {% include sidebar.html %}
+  {% endif %}
+  
+  
+    <div class="archive{% if page.classes contains "no-sidebar" or page.classes contains "wide" and page.author_profile != true %}-no-sidebar{% endif %}">
 
-  <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
