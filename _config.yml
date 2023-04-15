@@ -145,10 +145,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/cracked_asphalt"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://www.facebook.com/crackedasphalt"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url:
@@ -160,7 +160,10 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://www.instagram.com/crackedasphaltstudio"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit"
+      url: "https://www.reddit.com/u/crackedasphalt"
 
 
 # Reading Files
