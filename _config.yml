@@ -22,8 +22,8 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Cracked Asphalt Studio"
 description              : "Simple and functional outdoor gear. Make it yourself guides and tutorials."
 url                      : "https://www.crackedasphalt.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/crackedasphalt-website" #"/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "crackedasphalt/crackedasphalt-website" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : "/crackedasphalt-dev" #"/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+repository               : "crackedasphalt/crackedasphalt-dev" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo-text-1000x124.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : " " # overrides the website title displayed in the masthead, use " " for no title
