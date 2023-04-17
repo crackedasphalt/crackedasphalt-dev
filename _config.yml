@@ -320,6 +320,7 @@ defaults:
         overlay_color: "#5e616c"
         overlay_filter: .5
         overlay_image: /assets/images/home/home-page-feature.jpg
+        og_image: /assets/images/home/home-page-og-over.jpg
       sitemap: true
       author_profile: false # false, true - Displays author profile on page left
       author: # Author name - Overrides the default site author.
