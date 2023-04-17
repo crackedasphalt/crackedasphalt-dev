@@ -1,7 +1,7 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-last_modified_at: 2023-04-01T02:33:08-08:00
+last_modified_at: 2023-04-16T20:27:29-08:00
 toc: true
 layout: single
 classes: 
@@ -91,7 +91,7 @@ Visitors may choose not to submit their personal information through Slapform, a
 ###### Slapform Privacy Policy
 {: .no_toc}
 
-Visitors can access ConvertKit's privacy policy on their website at [https://slapform.com/privacy-policy](https://slapform.com/privacy-policy). We encourage all visitors to review the Slapform Privacy Policy before submitting any personal information through our website.
+Visitors can access ConvertKit's privacy policy on their website at [https://slapform.com/privacy/](https://slapform.com/privacy/). We encourage all visitors to review the Slapform Privacy Policy before submitting any personal information through our website.
 
 ##### Google Analytics
 {: .no_toc}
