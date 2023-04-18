@@ -1,8 +1,8 @@
 Kevin:
   name          : "Kevin"
   bio           : ""
-  avatar        : "/assets/images/logo-1000x1012.png"
-  avatar_format : "square" # "circle" (default) or "square"
+  avatar        : "/assets/images/cracked-asphalt-studio-mtn-col-200x200.png"
+  avatar_format : # "circle" (default) or "square"
   location      : "SF, CA"
   links:
     - label: "Email"
