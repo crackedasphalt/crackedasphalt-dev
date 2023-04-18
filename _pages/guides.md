@@ -3,7 +3,7 @@ title: Guides
 excerpt: "All guides and tutorials from Cracked Asphalt Studio"
 layout: category
 permalink: /guides/
-taxonomy: Guide
+taxonomy: Guides
 classes: 
   - wide
   - no-sidebar
