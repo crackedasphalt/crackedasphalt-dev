@@ -16,13 +16,15 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
     <section class="page__content" itemprop="text">
-      {% if paginator.page == 1 %}
-      {{ content }}
-      {%  endif %}
+      {% if paginator and paginator.page == 1 %}
+          {{ content }}
+      {% elsif paginator and paginator.page > 1 %}
+      {% else %}
+        {{ content }}
+      {% endif %}
     </section>
   </article>
 
-  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
   {% if paginator %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -44,6 +46,10 @@ layout: default
 
   {% assign entries_layout = page.entries_layout | default: 'list' %}
   
+  {% if posts.size >= 1 %}
+  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  {% endif %}
+
   <div class="entries-{{ entries_layout }}">
     {% for post in posts %}
       {% unless post.hidden %}
