@@ -20,6 +20,6 @@ permalink: /assets/images/icons/site.webmanifest
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "{{site.url}}",
+    "start_url": "{{site.url}}{{site.baseurl}}/",
     "display": "standalone"
 }
