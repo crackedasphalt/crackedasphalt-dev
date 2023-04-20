@@ -30,7 +30,7 @@ _site
 
 # Drawings #
 *.ai
-*.svg
+#*.svg
 *.val
 
 ### Darktable ###
