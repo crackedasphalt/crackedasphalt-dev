@@ -1,7 +1,7 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-last_modified_at: 2023-04-16T20:27:29-08:00
+last_modified_at: 2023-04-19T23:40:23-08:00
 toc: true
 layout: single
 classes: 
@@ -40,6 +40,7 @@ We use the information you provide to communicate with you and share information
 ### Sharing Your Personal Information
 
 #### Data Processors
+{: .no_toc}
 
 We may share your personal information with third-party data processors who help us facilitate our service, provide services on our behalf, perform service-related tasks, or assist us in analyzing how our service is used. These third parties are obligated to not disclose or use your information for any other purpose.
 
@@ -116,6 +117,7 @@ You can opt out of Google Analytics without affecting how you visit our site. Fo
 For more information on how Google uses data when you use our website and how you can control the information sent to Google, please visit this link: [https://policies.google.com/technologies/partner-sites](https://policies.google.com/technologies/partner-sites).
 
 #### Compliance with Applicable Laws and Regulations
+{: .no_toc}
 
 We may disclose your personal information in response to a lawful request, including to comply with applicable laws and regulations or a court order. Additionally, we may share your information in order to protect our rights or to respond to an emergency situation.
 
