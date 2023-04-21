@@ -134,7 +134,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/crackedasphaltstudio"
     - label: "Reddit"
-      icon: "fab fa-fw fa-reddit"
+      icon: "fab fa-fw fa-reddit-square"
       url: "https://www.reddit.com/user/crackedasphalt"
     - label: "YouTube"
       icon: "fab fa-fw fa-youtube"
@@ -162,7 +162,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/crackedasphaltstudio"
     - label: "Reddit"
-      icon: "fab fa-fw fa-reddit"
+      icon: "fab fa-fw fa-reddit-square"
       url: "https://www.reddit.com/u/crackedasphalt"
 
 
