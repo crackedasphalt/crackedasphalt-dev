@@ -220,6 +220,7 @@ body {
 
   &--overlay {
     position: relative;
+    min-height: 350px;
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
