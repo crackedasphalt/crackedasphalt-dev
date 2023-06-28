@@ -1,9 +1,10 @@
 Kevin:
   name          : "Kevin"
   bio           : ""
-  avatar        : "/assets/images/cracked-asphalt-studio-mtn-col-200x200.png"
+  avatar        : "/assets/images/avatar-kevin.png"
   avatar_format : # "circle" (default) or "square"
-  location      : "SF, CA"
+  location      : "San Francisco, CA"
+  home:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
