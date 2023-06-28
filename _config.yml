@@ -308,6 +308,10 @@ defaults:
       related: true
       show_date: true
       excerpt:
+      header:
+        show_overlay_excerpt: false
+        overlay_color: "#5e616c"
+        overlay_filter: 0.2
   # _pages
   - scope:
       path: ""
