@@ -2,8 +2,8 @@
 main:
   - title: "Guides"
     url: /guides/
-  - title: "About"
-    url: /about/
+#  - title: "About"
+#    url: /about/
 #  - title: "Resources"
 #    url: /resources/
   - title: "Contact"
