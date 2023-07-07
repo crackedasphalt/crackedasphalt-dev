@@ -220,7 +220,7 @@ body {
 
   &--overlay {
     position: relative;
-    min-height: 350px;
+    min-height: 8em;
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
@@ -231,6 +231,13 @@ body {
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
     animation-delay: 0.25s;
+
+    @include breakpoint($medium) {
+      min-height: 12em;
+    }
+    @include breakpoint($large) {
+      min-height: 16em;
+    }
 
     a {
       color: #fff;
