@@ -295,6 +295,11 @@ compress_html:
 
 # Defaults
 defaults:
+  # Include documents in _pages in search
+  - scope:
+      path: "_pages"
+    values:
+      search: true
   # _posts
   - scope:
       path: ""
